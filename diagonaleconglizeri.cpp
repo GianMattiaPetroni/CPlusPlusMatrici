@@ -21,7 +21,7 @@ int main()
     {
         for (int j = 0; j < colonne; j++)
         {
-            matrice[i][j] = rand() % 10;
+            matrice[i][j] = (rand() % 9)+1;
         }
     }
 
